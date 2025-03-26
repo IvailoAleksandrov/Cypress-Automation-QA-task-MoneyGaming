@@ -18,7 +18,7 @@ describe('MoneyGaming Registration Test', () => {
     cy.get('.required.checkbox.terms').should('exist').check();  /// Third CORRECTION 3 css selectors
 
     // Submit the form
-    cy.get('#form button[type="submit"]').click();
+    cy.get('#form').click();
 
     // Validate error message for Date of Birth
     cy.contains('This field is required').should('be.visible');
