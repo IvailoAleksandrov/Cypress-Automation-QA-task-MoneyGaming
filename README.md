@@ -1,3 +1,6 @@
+![Test Passed Screenshot](https://github.com/IvailoAleksandrov/Cypress-Automation-QA-task-MoneyGaming/blob/main/test_PASSED_screenShot.JPG)
+
+
 📂 Project Structure
 The solutions to Task 1 and Task 2 are located in the following folder:
 
