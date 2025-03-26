@@ -31,7 +31,7 @@ cypress/e2e/IVAILO_ALEKSANDROV_MG.feature
 ⚙️ Setup & Run Instructions
 <br>1️⃣ Install Dependencies
 Run the following command in your project root:
-npm install
+npm install cypress
 <br>2️⃣ Run Cypress Tests
 npx cypress open 
 or
