@@ -12,7 +12,7 @@ describe('MoneyGaming Registration Test', () => {
 
     // Enter first name and surname
     cy.get('#forename').type('Ivailo');
-    cy.get('input[name="map(lastName)"]').type('YourLastName');   /// Second CORRECTION  data attrubute
+    cy.get('input[name="map(lastName)"]').type('Aleksandrov');   /// Second CORRECTION  data attrubute
 
     // Accept terms and conditions
     cy.get('.required.checkbox.terms').should('exist').check();  /// Third CORRECTION 3 css selectors
