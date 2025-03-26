@@ -4,18 +4,18 @@ describe('MoneyGaming Registration Test', () => {
   });
 
   it('Validate the registration form', () => {
-    // Click "JOIN NOW" button
-    cy.get('.green').click(); 
+    // Click "JOIN NOW" button using the correct selector
+    cy.get('.newUser.green').click();     //  First CORRECTION  with 2 selectors
 
     // Select title
     cy.get('#title').select('Mr');
 
     // Enter first name and surname
     cy.get('#forename').type('Ivailo');
-    cy.get('#surname').type('Aleksandrov'); // Use correct selector
+    cy.get('input[name="map(lastName)"]').type('YourLastName');   /// Second CORRECTION  data attrubute
 
     // Accept terms and conditions
-    cy.get('[name="map(toSend).termsAndConditions"]').should('exist').check();
+    cy.get('.required.checkbox.terms').should('exist').check();  /// Third CORRECTION 3 css selectors
 
     // Submit the form
     cy.get('#form button[type="submit"]').click();
