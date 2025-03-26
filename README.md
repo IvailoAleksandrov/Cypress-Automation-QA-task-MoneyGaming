@@ -29,10 +29,10 @@ The feature file is located at:
 cypress/e2e/IVAILO_ALEKSANDROV_MG.feature
 
 ⚙️ Setup & Run Instructions
-1️⃣ Install Dependencies
+<br>1️⃣ Install Dependencies
 Run the following command in your project root:
 npm install
-2️⃣ Run Cypress Tests
+<br>2️⃣ Run Cypress Tests
 npx cypress open 
 or
 npx cypress run
