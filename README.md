@@ -6,7 +6,7 @@ cypress/e2e/
 The project is built using Cypress with the Cucumber preprocessor for BDD scenarios.
 
 ✅ Task 1 - Registration Form Automation
-This test automates the registration process and validates that an error message appears when the Date of Birth is missing.
+<br>This test automates the registration process and validates that an error message appears when the Date of Birth is missing.
 
 Test Steps:
 Navigate to: MoneyGaming QA Site
@@ -22,7 +22,7 @@ Click JOIN NOW to submit the form.
 Validate that the error message "This field is required" appears under the Date of Birth field.
 
 ✅ Task 2 - BDD Feature File (Password Validation)
-A Gherkin feature file covering the new acceptance criteria for password validation is included.
+<br>A Gherkin feature file covering the new acceptance criteria for password validation is included.
 
 The feature file is located at:
 
@@ -38,6 +38,6 @@ or
 npx cypress run
 
 🚀 Continuous Integration (CI/CD)
-The project is configured to run tests automatically on every pull request via GitHub Actions.
+<br>The project is configured to run tests automatically on every pull request via GitHub Actions.
 
 
